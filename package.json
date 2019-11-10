@@ -1,0 +1,34 @@
+{
+  "name": "html5-skelton",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Minimal useful html5 skelton code",
+  "main": "out/index.js",
+  "repository": "https://github.com/shaman-apprentice/vs-code-html5-skelton",
+  "author": "shaman-apprentice <Torsten.Knauf@gmx.de>",
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onCommand:html5-skelton"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "html5-skelton",
+        "title": "html5-skelton"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.40.0",
+    "typescript": "^3.7.2"
+  }
+}
