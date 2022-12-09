@@ -4,6 +4,7 @@ Adds the following snippet as `html-skelton`
 
 ```html
 <!DOCTYPE html>
+<html lang="en">
   <head>
     <title>${TM_FILENAME_BASE}</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
